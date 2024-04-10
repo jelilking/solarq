@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f0f0f0; /* Light gray background */
+  border: 1px solid #ccc; /* 1px solid gray border */
+  padding: 10px; /* 10px padding on all sides */
+  margin: 8px; /* 15px margin on all sides */
+  font-size: 16px;
+}
+
+.home .fh1 {
+  background-color: red;
+  color: #000;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+.home .fh2 {
+  background-color: lightgray;
+  color: red;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Lato", sans-serif;
+  font-weight: 800;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.home .image {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .image img {
+  max-width: 100%;
+}
+
+.home1 {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 8px;
+  font-size: 16px;
+}
+
+.home1 .left {
+  background-color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.home1 .left p {
+  margin-bottom: 10px;
+}
+
+.home1 .right {
+  background-color: lightgrey;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.home1 .right h4 {
+  text-decoration: line-through;
+}
+
+.home1 .right p {
+  margin-bottom: 10px;
+}
+
+.home1 .right .button {
+  background-color: green; /* Green color */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home1 .right .button:hover {
+  background-color: #3e8e41;
+}
+
+.home1 .red {
+  color: red;
+}
+.home1 .green {
+  color: green;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(1, 1, 26);
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 8px;
+  font-size: 16px;
+}
+
+.product .image {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product .image img {
+  max-width: 100%;
+}
+
+.product .order {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.product .order .button {
+  margin: 20px 10px;
+  background-color: red; /* Green color */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product .order .button:hover {
+  background-color: green;
+}
+
+.product .order p {
+  color: #f0f0f0;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(91, 91, 92);
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 8px;
+  font-size: 16px;
+}
+
+.items .image {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.items .image img {
+  max-width: 100%;
+}
+
+.pros {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 8px;
+  font-size: 16px;
+}
+
+.pros .image {
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.pros .image img {
+  max-width: 100%;
+}
+
+.pros .order {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pros .order .button {
+  margin: 20px 10px;
+  background-color: red; /* Green color */
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.pros .order .button:hover {
+  background-color: green;
+}
+
+.pros .order p {
+  color: #f0f0f0;
+  font-size: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.review {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(227, 234, 238);
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 8px;
+  font-size: 16px;
+}
+
+.review .top {
+  background-color: coral;
+  text-align: center;
+  color: black;
+  padding: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.review .top h3 {
+  font-size: 24px;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.review .top p {
+  margin: 10px 5px;
+}
+
+.review .bottom {
+  background-color: darkslateblue;
+  text-align: center;
+  color: black;
+  padding: 1.5rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.review .bottom h3 {
+  font-size: 24px;
+  font-weight: 800;
+  text-decoration: underline;
+}
+
+.price {
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(144, 194, 223);
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.price h2 {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+.price p {
+  font-size: 1.2rem;
+  font-weight: 800;
+  font-family: "Lato", sans-serif;
+}
+
+.note {
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(171, 238, 199);
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.note h1 {
+  color: blue;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.note p {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.form {
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(227, 234, 238);
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 8px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.form h1 {
+  color: blue;
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.form p {
+  color: red;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.form form {
+  /* display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: first baseline;
+
+  margin-bottom: 40px; */
+
+  margin: 20px auto; /* Add some margin and center horizontally */
+  padding: 20px;
+  width: 320px;
+  border: 1px solid #ddd;
+  border-radius: 5px; /* Add some rounded corners */
+  background-color: #eb8b8b;
+}
+
+.form form label {
+  /* Style the labels */
+  display: flex;
+  color: rgb(99, 62, 62);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form form input[type="text"],
+.form form input[type="number"],
+.form form input[type="email"],
+.form form textarea,
+.form form select {
+  /* Style all text input and textarea elements */
+  width: 100%; /* Make them fill the full width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.form form button[type="submit"] {
+  /* Style the submit button */
+  background-color: #4caf50; /* Green color */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px; /* Add rounded corners */
+  margin-top: 10px;
+}

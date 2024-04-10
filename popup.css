@@ -1,0 +1,89 @@
+.popup {
+  background-color: #b16565;
+  width: 300px;
+  padding: 10px 20px;
+  position: fixed;
+  transform: translate(-50% -50%);
+  left: 10%;
+  top: 20%;
+
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  display: none;
+}
+
+.popup button {
+  display: block;
+  margin: 0 0 20px auto;
+  background-color: transparent;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup p {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: justify;
+  margin: 5px auto;
+}
+
+.popup a {
+  display: block;
+  width: 150px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  padding: 5px 0;
+  border-radius: 5px;
+}
+
+.popup1 {
+  background-color: #df6262;
+  width: 300px;
+  padding: 10px 20px;
+  position: fixed;
+  transform: translate(-50% -50%);
+  left: 10%;
+  top: 60%;
+
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  display: none;
+}
+
+.popup1 button {
+  display: block;
+  margin: 0 0 20px auto;
+  background-color: transparent;
+  font-size: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.popup1 p {
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: justify;
+  margin: 5px auto;
+}
+
+.popup1 a {
+  display: block;
+  width: 150px;
+  position: relative;
+  margin: auto;
+  text-align: center;
+  background-color: blue;
+  text-decoration: none;
+  color: white;
+  padding: 5px 0;
+  border-radius: 5px;
+}
