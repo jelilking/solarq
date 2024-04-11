@@ -1,3 +1,27 @@
+.fixed {
+  background-color: rgb(20, 20, 204);
+  width: 200px;
+  text-align: center;
+  padding: 2cqb 0;
+  transform: translate(-50% -50%);
+  top: 85%;
+  right: 30%;
+  position: fixed;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.fixed p {
+  font-size: 20px;
+  font-weight: 800;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+.fixed a {
+  text-decoration: none;
+  font-size: 1.8rem;
+}
+
 .popup {
   background-color: #b16565;
   width: 300px;
